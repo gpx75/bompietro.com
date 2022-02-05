@@ -1,0 +1,14 @@
+name = "playground"
+type = "javascript"
+account_id =  ${{ secrets.CF_ACCOUNT_ID }}
+workers_dev = true
+route = "bompietro.com/*"
+zone_id = ${{ secrets.CF_ZONE_ID }}
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "NITRO_PRESET=cloudflare yarn nuxt build"
+upload.format = "service-worker"
+
