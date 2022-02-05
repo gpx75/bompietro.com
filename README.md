@@ -1,5 +1,5 @@
 # bompietro.com
-# action
+# action "qui"
 # wrangler
 
 # Nuxt 3 Minimal Starter
