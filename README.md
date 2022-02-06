@@ -1,5 +1,8 @@
 # bompietro.com
-# action "fails" "queed"
+# action "fails" "queed" "fails"
+Nuxt3 deployment to Cloudflare Workers using Github Actions fails
+#1239 
+https://github.com/nuxt/nitro-demo/blob/main/wrangler.toml
 # wrangler
 
 # Nuxt 3 Minimal Starter
