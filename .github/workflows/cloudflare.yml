@@ -1,5 +1,4 @@
 name: cloudflare
-
 on:
   push:
     branches:
