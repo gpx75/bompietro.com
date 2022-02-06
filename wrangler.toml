@@ -1,5 +1,5 @@
 compatibility_date = "2022-02-06"
-name = "playground"
+name = "worker-bompietro"
 type = "javascript"
 account_id = "03e75c0f67258404b45d7421ebb5e219"
 workers_dev = true
