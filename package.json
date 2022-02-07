@@ -6,6 +6,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "latest",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "daisyui": "^1.25.4"
   }
 }
