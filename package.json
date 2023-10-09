@@ -12,5 +12,8 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "daisyui": "^1.25.4"
+  },
+  "volta": {
+    "node": "17.9.1"
   }
 }
