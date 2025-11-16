@@ -8,7 +8,6 @@ zone_id = "4647e6f62287ecaa74a78a34c20dac4f"
 
 [site]
 bucket = ".output/public"
-entry-point = ".output"
 
 [build]
 command = "true"
