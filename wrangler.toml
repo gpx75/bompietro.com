@@ -1,10 +1,10 @@
 compatibility_date = "2022-02-06"
 name = "worker-bompietro"
 type = "javascript"
-account_id = "03e75c0f67258404b45d7421ebb5e219"
+account_id = "4706a369fed984bbcf017f2ba89b1543"
 workers_dev = true
 route = "bompietro.com/*"
-zone_id = "c4c5c0be8fe852acf3fb5f2073a8692d"
+zone_id = "4647e6f62287ecaa74a78a34c20dac4f"
 
 [site]
 bucket = ".output/public"
