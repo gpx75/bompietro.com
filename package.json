@@ -1,19 +1,19 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
-  },
-  "devDependencies": {
-    "nuxt3": "latest",
-    "tailwindcss": "^3.0.18"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt preview"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "daisyui": "^1.25.4"
+    "animate.css": "^4.1.1"
   },
-  "volta": {
-    "node": "17.9.1"
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "autoprefixer": "^10.4.22",
+    "daisyui": "^5.5.5",
+    "nuxt": "^4.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
   }
 }

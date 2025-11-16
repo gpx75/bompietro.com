@@ -1,18 +1,14 @@
-import { defineNuxtConfig } from "nuxt3";
+import { defineNuxtConfig } from "nuxt/config";
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  // build
   build: {
     transpile: ["@headlessui/vue"],
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
+  },
+  css: ["~/assets/css/app.css"],
+  postcss: {
+    plugins: {
+      "@tailwindcss/postcss": {},
+      autoprefixer: {},
     },
   },
-  css: ["~/assets/css/tailwind.css"],
 });
