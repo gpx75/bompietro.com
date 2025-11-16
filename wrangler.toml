@@ -6,8 +6,9 @@ workers_dev = true
 route = "bompietro.com/*"
 zone_id = "4647e6f62287ecaa74a78a34c20dac4f"
 
-[site]
-bucket = ".output/public"
+[assets]
+binding = "ASSETS"
+directory = ".output/public"
 
 [build]
 command = "true"
